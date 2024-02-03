@@ -1,0 +1,79 @@
+body{
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+.container-fluid{
+    background-color: bisque;
+    width: 100%;
+    height: 100vh;
+
+    /* gap: 100px; */
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+.you{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(137, 102, 102);
+    text-align: center;
+    
+}
+
+.bot{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    text-align: center;
+}
+
+.rock{
+    width: 80px;
+    height: 75px;
+}
+.paper{
+    width: 80px;
+    height: 75px;
+}
+.scissors{
+    width: 80px;
+    height: 75px;
+}
+.transparent{
+    background-color: transparent;
+}
+.rock-b{
+
+}
+.paper-b{
+  
+}
+.scissors-b{
+
+}
+.animate{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    transform: rotate(360deg)
+
+}
+.animation{
+    background: none;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    transform: rotate(360deg)
+}
+.hide{
+    display: none;
+}
+
+#Winner{
+    padding: 20px;
+    text-align: center;
+}
+
+.wincount{
+    text-align: center;
+}
